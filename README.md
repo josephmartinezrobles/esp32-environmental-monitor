@@ -43,3 +43,9 @@ plot_data.py
 - Implement MQTT protocol
 - Integrate database storage (SQLite or cloud)
 - Add real-time dashboard (Streamlit)
+
+## Future Work
+- Add WiFi-based communication
+- Implement MQTT protocol
+- Integrate database storage (SQLite or cloud)
+- Add real-time dashboard (Streamlit)
