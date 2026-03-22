@@ -20,6 +20,7 @@ ESP32 → Serial Communication → Python → CSV Storage → Data Visualization
   - matplotlib
 
 ## Project Structure
+```
 firmware/
 esp32_sensor_node.ino
 
@@ -27,6 +28,7 @@ python/
 serial_receiver.py
 save_to_csv.py
 plot_data.py
+```
 
 ## How to Run
 
@@ -37,12 +39,6 @@ plot_data.py
 
 3. Generate plots:
    python plot_data.py
-
-## Future Work
-- Add WiFi-based communication
-- Implement MQTT protocol
-- Integrate database storage (SQLite or cloud)
-- Add real-time dashboard (Streamlit)
 
 ## Future Work
 - Add WiFi-based communication
