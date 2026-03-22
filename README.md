@@ -21,17 +21,25 @@ ESP32 → Serial Communication → Python → CSV Storage → Data Visualization
 
 ## Project Structure
 firmware/
-  esp32_sensor_node.ino
+esp32_sensor_node.ino
 
 python/
-  serial_receiver.py
-  save_to_csv.py
-  plot_data.py
+serial_receiver.py
+save_to_csv.py
+plot_data.py
 
 ## How to Run
 
-1. Upload the firmware to the ESP32  
-2. Run the Python script:
-   python save_to_csv.py  
+1. Upload the firmware to the ESP32
+
+2. Run the data logging script:
+   python save_to_csv.py
+
 3. Generate plots:
    python plot_data.py
+
+## Future Work
+- Add WiFi-based communication
+- Implement MQTT protocol
+- Integrate database storage (SQLite or cloud)
+- Add real-time dashboard (Streamlit)
